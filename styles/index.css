@@ -1,0 +1,47 @@
+#main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#form{
+    display:flex;
+    flex-direction: column;
+    gap: 31px;
+    padding:  31px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px black;
+    width: 400px;
+}
+#output{
+    display:flex;
+    flex-direction: column;
+    gap: 31px;
+    padding:  31px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px black;
+    width: 400px;
+}
+.input{
+border:  2px solid black;
+height: 61px;
+padding-left: 20px;
+}
+input[placeholder]{
+    font-size:18px;
+    font-weight: bold;
+    color:black
+}
+#subscribe{
+    background-color: #202649;
+    height: 53px;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin-top: 80px;
+    
+}
